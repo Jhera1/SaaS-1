@@ -1,0 +1,419 @@
+/*i pads and tablets - portrait*/
+
+@media screen and (max-width: 768px) {
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: block;
+    }
+
+    .bg-header {
+        height: 700px;
+    }
+    
+
+    .empower-box {
+        flex-direction: column;
+    }
+
+    .empower-wraper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .empower-header {
+        margin-top: 30px;
+    }
+
+    .empower-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-wrapper {
+        margin-left: auto;
+        margin-right: 100px;
+    }
+
+    .benifits {
+        margin-top: 400px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .software-people {
+        all: unset;
+        text-align: center;
+    }
+
+    .section-three-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .circles {
+        max-width: 700px;
+    }
+
+    .line {
+        width: 130px;
+    }
+
+    .video-section {
+        margin: 65px 0px;
+    }
+
+    .hub-spot {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hub-spot-left {
+        margin-top: 100px;
+    }
+
+    .dots {
+        position: relative;
+        left: 156px;
+    }
+
+    .woman-three {
+        left: auto;
+    }
+
+    .hub-spot-right {
+        text-align: center;
+        padding-bottom: 80px;
+        margin-top: 100px;
+    }
+
+    .company-logo {
+        width: 120px;
+    }
+
+    .pricing-content {
+        all: unset;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .five-nine-box,
+    .five-nine-p,
+    .below-play-btn,
+    .five-nine-btn,
+    .sec-three-btn,
+    .sec-8-btn {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .pricing-right-card {
+        margin-left: 50px;
+    }
+
+    .hire-us {
+        grid-template-columns: 1fr;
+    }
+
+    .hire-us-left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+    .hire-us-split-l {
+        margin-left: 20px;
+        width: max-content;
+    }
+
+    .hire-us-header {
+        margin-top: 30px;
+    }
+
+    .hire-us-hr {
+        margin: 30px 0px;
+    }
+
+    .hire-us-split-r {
+        padding-left: 30px;
+    }
+
+    .name-header {
+        padding-top: 60px;
+    }
+
+    .resp-footer-r {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bottom-top-right {
+        margin-left: 0px;
+    }
+
+    .top-footer-boxes {
+        margin-left: 20px;
+    }
+
+    .footer-icon {
+        font-size: 40px;
+    }
+
+    .footer-select {
+        width: 140px;
+        height: 35px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+
+
+/* mobile device */
+
+@media screen and (max-width: 375px) {
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: block;
+    }
+
+    .navbar {
+       /* margin-right: auto;
+       margin-left: auto; */
+       max-width: 375px;
+       margin: 0px;
+    }
+
+    .empower-box {
+        text-align: center;
+    }
+
+    .empower-header {
+        font-size: 29px;
+    }
+
+    .own-p {
+        font-size: 15px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo-wrapper {
+        gap: 0;
+    }
+
+    .google-A,
+    .google,
+    .atlassian,
+    .paypal,
+    .weave,
+    .calender {
+        left: unset;
+        right: unset;
+    }
+
+    .atlassian  {
+        left: 23px;
+    }
+
+    .assana {
+        left: 60px;
+    }
+
+    .paypal {
+        top: 30px;
+    }
+
+    .weave {
+        left: 100px;
+        top: 30px;
+    }
+
+    .google-A {
+        left: 100px;
+        top: 60px; 
+    }
+
+    .calender {
+        top: 70px;
+        left: 140px;
+    }
+
+    
+
+    .benifits {
+        margin-top: 200px;
+    }
+
+    .circle-text-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .circles {
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .circle {
+        margin-bottom: 15px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .section-three-left {
+        padding-left: 0;
+    }
+
+    .sec-4-text {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .box {
+        margin-left: -50px;
+    }
+
+    .box-two {
+        margin-left: -50px;
+    }
+
+    .video-section {
+        padding: 50px 0;
+        margin: 0px;
+        margin: 50px -15px;
+    }
+
+    .hub-spot-left {
+        margin: 50px 0;
+    }
+
+    .dots {
+        position: relative;
+        left: 5px;
+        height: 300px;
+    }
+
+    .woman-three {
+        left: 50px;
+        top: 3px;
+        width: 300px;
+    }
+
+    .company-logo-box {
+        flex-direction: column;
+    }
+
+    .company-logo {
+        align-self: center;
+        margin-bottom: 25px;
+    }
+
+    .pricing-left {
+        margin-right: -35px;
+        margin-left: -35px;
+    }
+
+    .mo {
+        padding-left: 0px;
+    }
+
+    .pricing-right {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-right-card {
+        margin: 0px;
+    }
+
+    .hire-us {
+        max-width: 375px;
+    }
+
+    .hire-us-left {
+        grid-template-columns: 1fr;
+    }
+
+    .hire-us-split-l {
+        margin-left: 0px;
+        max-width: 355px;
+    }
+
+    form {
+        margin: 10px;
+        max-width: 355px;
+    }
+
+    .form-name-box {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-top-ul {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .adress-box {
+        margin: 0px -50px;
+        padding-right: 19px;
+    }
+
+    .resp-footer-r {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .top-footer-boxes {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-hr {
+     margin: 30px -30px;
+    }
+
+    .bottom-top {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bottom-top-right {
+        margin-left: 0px;
+    }
+}
